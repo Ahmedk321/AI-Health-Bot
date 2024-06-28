@@ -83,6 +83,8 @@ def home_screen():
 
     At the end, classify the food in the image into a by giving a heading 'category' (e.g., snack, breakfast, lunch, dinner)
 
+    NOTE: If you receive pictures that do not contain any food items, for example, it can be a picture of humans, accessories, vehicles, and other things except food. Just simply say like 'The picture does not contain any food etc'
+
     """
 
     if apply:
